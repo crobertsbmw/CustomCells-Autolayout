@@ -14,6 +14,13 @@
 		AE6C9C4319D4722F00873FE3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE6C9C4219D4722F00873FE3 /* Images.xcassets */; };
 		AE6C9C4619D4722F00873FE3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE6C9C4419D4722F00873FE3 /* LaunchScreen.xib */; };
 		AE6C9C5219D4722F00873FE3 /* AutolayoutCellsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE6C9C5119D4722F00873FE3 /* AutolayoutCellsTests.m */; };
+		AE6C9C6019D4726600873FE3 /* DipticView.m in Sources */ = {isa = PBXBuildFile; fileRef = AE6C9C5C19D4726600873FE3 /* DipticView.m */; };
+		AE6C9C6119D4726600873FE3 /* DipticCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AE6C9C5E19D4726600873FE3 /* DipticCell.m */; };
+		AE6C9C6219D4726600873FE3 /* DipticCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE6C9C5F19D4726600873FE3 /* DipticCell.xib */; };
+		AE6C9C6619D4736800873FE3 /* head@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AE6C9C6519D4736800873FE3 /* head@2x.png */; };
+		AE6C9C6819D4736E00873FE3 /* flag-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AE6C9C6719D4736E00873FE3 /* flag-icon@2x.png */; };
+		AE6C9C6A19D4739600873FE3 /* kiwi-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AE6C9C6919D4739600873FE3 /* kiwi-icon@2x.png */; };
+		AE6C9C6D19D473CA00873FE3 /* ResizableTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = AE6C9C6C19D473CA00873FE3 /* ResizableTextView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +47,16 @@
 		AE6C9C4B19D4722F00873FE3 /* AutolayoutCellsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutolayoutCellsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE6C9C5019D4722F00873FE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AE6C9C5119D4722F00873FE3 /* AutolayoutCellsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutolayoutCellsTests.m; sourceTree = "<group>"; };
+		AE6C9C5B19D4726600873FE3 /* DipticView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DipticView.h; sourceTree = "<group>"; };
+		AE6C9C5C19D4726600873FE3 /* DipticView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DipticView.m; sourceTree = "<group>"; };
+		AE6C9C5D19D4726600873FE3 /* DipticCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DipticCell.h; sourceTree = "<group>"; };
+		AE6C9C5E19D4726600873FE3 /* DipticCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DipticCell.m; sourceTree = "<group>"; };
+		AE6C9C5F19D4726600873FE3 /* DipticCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DipticCell.xib; sourceTree = "<group>"; };
+		AE6C9C6519D4736800873FE3 /* head@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "head@2x.png"; sourceTree = "<group>"; };
+		AE6C9C6719D4736E00873FE3 /* flag-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "flag-icon@2x.png"; sourceTree = "<group>"; };
+		AE6C9C6919D4739600873FE3 /* kiwi-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kiwi-icon@2x.png"; sourceTree = "<group>"; };
+		AE6C9C6B19D473CA00873FE3 /* ResizableTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResizableTextView.h; sourceTree = "<group>"; };
+		AE6C9C6C19D473CA00873FE3 /* ResizableTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResizableTextView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,13 +98,23 @@
 		AE6C9C3419D4722E00873FE3 /* AutolayoutCells */ = {
 			isa = PBXGroup;
 			children = (
+				AE6C9C5B19D4726600873FE3 /* DipticView.h */,
+				AE6C9C5C19D4726600873FE3 /* DipticView.m */,
+				AE6C9C5D19D4726600873FE3 /* DipticCell.h */,
+				AE6C9C5E19D4726600873FE3 /* DipticCell.m */,
+				AE6C9C5F19D4726600873FE3 /* DipticCell.xib */,
 				AE6C9C3919D4722F00873FE3 /* AppDelegate.h */,
 				AE6C9C3A19D4722F00873FE3 /* AppDelegate.m */,
 				AE6C9C3C19D4722F00873FE3 /* ViewController.h */,
 				AE6C9C3D19D4722F00873FE3 /* ViewController.m */,
+				AE6C9C6B19D473CA00873FE3 /* ResizableTextView.h */,
+				AE6C9C6C19D473CA00873FE3 /* ResizableTextView.m */,
 				AE6C9C3F19D4722F00873FE3 /* Main.storyboard */,
 				AE6C9C4219D4722F00873FE3 /* Images.xcassets */,
 				AE6C9C4419D4722F00873FE3 /* LaunchScreen.xib */,
+				AE6C9C6519D4736800873FE3 /* head@2x.png */,
+				AE6C9C6719D4736E00873FE3 /* flag-icon@2x.png */,
+				AE6C9C6919D4739600873FE3 /* kiwi-icon@2x.png */,
 				AE6C9C3519D4722E00873FE3 /* Supporting Files */,
 			);
 			path = AutolayoutCells;
@@ -199,7 +226,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE6C9C6A19D4739600873FE3 /* kiwi-icon@2x.png in Resources */,
+				AE6C9C6219D4726600873FE3 /* DipticCell.xib in Resources */,
+				AE6C9C6819D4736E00873FE3 /* flag-icon@2x.png in Resources */,
 				AE6C9C4119D4722F00873FE3 /* Main.storyboard in Resources */,
+				AE6C9C6619D4736800873FE3 /* head@2x.png in Resources */,
 				AE6C9C4619D4722F00873FE3 /* LaunchScreen.xib in Resources */,
 				AE6C9C4319D4722F00873FE3 /* Images.xcassets in Resources */,
 			);
@@ -222,6 +253,9 @@
 				AE6C9C3E19D4722F00873FE3 /* ViewController.m in Sources */,
 				AE6C9C3B19D4722F00873FE3 /* AppDelegate.m in Sources */,
 				AE6C9C3819D4722F00873FE3 /* main.m in Sources */,
+				AE6C9C6119D4726600873FE3 /* DipticCell.m in Sources */,
+				AE6C9C6019D4726600873FE3 /* DipticView.m in Sources */,
+				AE6C9C6D19D473CA00873FE3 /* ResizableTextView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

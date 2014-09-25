@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "DipticView.h"
 @interface ViewController ()
 
 @end
@@ -16,6 +16,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    DipticView *view = [[DipticView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height)];
+    [self.view addSubview:view];
     // Do any additional setup after loading the view, typically from a nib.
 }
 
